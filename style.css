@@ -1,0 +1,45 @@
+body{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(64, 42, 70);
+    padding-bottom: 5vh;
+}
+
+p{
+    color:antiquewhite
+}
+
+#container{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+
+
+.header{
+    flex-basis: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom:1% ;
+}
+
+button{
+    width: 6rem;
+    height: 2rem;
+    display: inline;
+    background-color: rgb(136, 80, 176);
+    border:2px solid rgb(255, 255, 255);
+    color: antiquewhite;
+    border-radius: 10px;
+}
+
+.grid{
+    background-color: rgb(150, 90, 145);
+}
+
+h1{
+    color:antiquewhite
+}
